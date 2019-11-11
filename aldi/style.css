@@ -1,0 +1,148 @@
+@font-face {
+    src: url('./DAGGERSQUARE.otf');
+    font-family: 'dager';
+}
+
+body {
+    height: 100%;
+    background-color: white;
+}
+
+.header {
+    height: 35px;
+    width: 100%;
+    background: rgb(0, 68, 255);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14pt;
+    line-height: 35px;
+    color: rgb(51, 51, 51);
+    font-family: 'dager';
+}
+
+.profile-box {
+    /* border-radius: 10px; */
+    background: rgb(51, 51, 51);
+    /*height: 638px;*/
+    height: 100%;
+    width: 100%;
+    transition: .8s;
+    transform: translateY(27px);
+    overflow: hidden;
+    color: white;
+    /* box-shadow: 0px 1px 1px 1px rgba(255, 255, 255, 1); */
+    position: fixed;
+    left: 0px;
+}
+
+.profile-pic {
+    height: 125px;
+    width: 125px;
+    border-radius: 90px;
+    overflow: hidden;
+    margin-top: 20px;
+    border: 2px solid deeppink;
+    outline: none;
+}
+
+#dropbtn {
+    height: 28px;
+    width: 28px;
+    color: white;
+    transition: .8s;
+    position: fixed;
+    margin-left: 5px;
+    margin-top: 1px;
+}
+
+.nama {
+    font-size: 12px;
+    font-family: 'Roboto Mono', monospace;
+    text-transform: capitalize;
+    margin-top: -13px;
+}
+
+.title {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    margin-top: -18px;
+    font-weight: lighter;
+}
+
+.personal-info {
+    height: 30px;
+    width: 290px;
+    border-radius: 10px;
+    position: sticky;
+    background: white;
+    transition: .8s;
+    margin-top: 18px;
+}
+
+.personal-info-title {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    /*color: rgb(51,51,51);*/
+    border-radius: 10px;
+    background: rgb(0, 11, 197);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-top: -10px;
+    line-height: 30px;
+}
+
+.personal-info-content {
+    font-size: 13pt;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(51, 51, 51);
+    margin-top: 10px;
+}
+
+.bottom {
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    /* background: rgba(255, 255, 255, 0.7); */
+}
+
+.social-github {
+    height: 40px;
+    width: 40px;
+    font-size: 21pt;
+    /* color: rgb(51, 51, 51); */
+    color: white;
+    position: fixed;
+    left: 20%;
+    bottom: 30px;
+}
+
+.social-instagram {
+    height: 40px;
+    width: 40px;
+    font-size: 21pt;
+    /* color: rgb(51, 51, 51); */
+    color: white;
+    /*
+    position: fixed;
+    left: 60%;
+    bottom: 30px;
+    */
+}
+
+.social-linkedin {
+    height: 40px;
+    width: 40px;
+    font-size: 21pt;
+    /* color: rgb(51, 51, 51); */
+    color: white;
+    position: fixed;
+    right: 20%;
+    bottom: 30px;
+}
